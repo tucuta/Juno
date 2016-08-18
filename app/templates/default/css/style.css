@@ -1,0 +1,196 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: sans-serif;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.page{
+  float:left;width:100%;margin:0; padding: 0;
+}
+
+.header {
+    background: #424242;
+    width: 100%;
+    float: left;
+}
+
+.mdl-layout__header {
+    height: 180px;
+    background: #ef5350;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    position: relative;
+}
+
+.mdl-layout__tab-bar {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.8em;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-bottom: 5px;
+    line-height: 1em;
+    color: #424242;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight: 100;
+    padding-bottom: 5px;
+    letter-spacing: .015em;
+}
+
+.navigation {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#menu-1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#menu-1 li.menu-item {
+    margin-right: 50px;
+    margin-left: 27px;
+    position: relative;
+}
+
+#menu-1 li a{
+  color:#fff;
+  text-decoration:none;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 275px;
+    z-index: 500;
+    list-style: none;
+    background-color: #666;
+    top: 30px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+
+
+.sub-menu li a{
+  display: block;
+  width:100%;
+  padding:8px;
+  box-sizing:border-box;
+  color:#fff;
+  text-decoration:none;
+}

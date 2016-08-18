@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href="/app/templates/default/css/style.css" rel="stylesheet" type="text/css">
+<link href="/app/templates/default/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="/app/templates/default/js/jquery.js" type="text/javascript"></script>
+<script src="/app/templates/default/js/bPopup.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.referralDialog').click(function(){
+					$('.formDialog').bPopup();
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="userBar">
+	<div class="wrapper">
+	<div class="userArea">
+
+				 <div class="user"><a href="/member/"><i class="fa fa-user fa-lg"></i> Administrator</a></div>
+				 <div class="logout"><a href="/logout"><i class="fa fa-sign-out fa-lg"></i> Logout</a></div>
+
+				</div>
+	</div>
+</div>
+<div class="header">
+
+
+
+	<div class="wrapper">
+		<div class="logo">
+			<a href="/">
+				<img src="/app/templates/default/images/silvernailCapitalWi.png" />
+			</a>
+		</div>
+		<div class="navBar">
+			<div class="welcome"><strong>Welcome</strong>, Administrator</div>
+			<div class="nav">
+				<div class="buttonContainer">
+					<div class="clientButton"><a href="/member/">CLIENT ACCOUNT</a></div>
+					<div class="clientButton"><a target="_blank" href="https://www.clientam.com/sso/Login?partnerID=MackenzieI">CLIENT LOGIN</a></div>
+
+					<div class="clientButton referral"><a class="referralDialog">CLIENT REFERRAL</a></div>
+				</div>
+			</div>
+
+		</div>
+
+</div>
+</div>
+<div class="container content">
+	<div class="row">
+		<div class="wrapper">
+
+			<h1>404</h1>
+
+
+			<hr />
+
+			<h3>The page you were looking for could not be found</h3>
+			<p>This could be the result of the page being removed, the name being changed or the page being temporarily unavailable</p>
+			<h3>Troubleshooting</h3>
+
+			<ul>
+			  <li>If you spelled the URL manually, double check the spelling</li>
+			  <li>Go to our website's home page, and navigate to the content in question</li>
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+
+
+<!-- JS -->
+
+<div class="formDialog">
+	<span class="button b-close"><span>X</span></span>
+
+	<div class="formModalContent">
+		<div class="modalLogo">
+			Client Referral Form
+		</div>
+		<div class="modalText">
+			<p>Please fill out this form for someone who could benefit from Silvernail Capital's services</p>
+			<p>Silvernail Capital will contact them shortly.<p>
+		</div>
+	</div>
+	<div class="formModalForm">
+		<form name='clientreferral' method='post'>
+		<div class="modalFormRow">
+			<div class="input50"><input type="text" name="firstName" id="firstName" placeholder="First Name" /></div>
+			<div class="input50"><input type="text" name="lastName" id="lastName" placeholder="Last Name" /></div>
+		</div>
+		<div class="modalFormRow">
+			<div class="input50"><input type="text" name="email" id="email" placeholder="Email Address" /></div>
+			<div class="input50"><input type="text" name="phone" id="phone" placeholder="Phone Number" /></div>
+		</div>
+		<div class="modalFormRow">
+			<div class="input100">
+				<select name="bestContact" id="bestContact">
+					<option value="">Best way to contact this person?</option>
+					<option value="Email">Email</option>
+					<option value="Phone">Call</option>
+					<option value="Text">Text</option>
+				</select>
+
+			</div>
+		</div>
+		<div class="modalFormRow">
+			<div class="input100">
+				<select name="assets" id="assets">
+					<option value="">Estimated Assets?</option>
+					<option value="$0-$100,000">$0-$100,000</option>
+					<option value="$100,000-$500,000">$100,000-$500,000</option>
+					<option value="$500,000+">$500,000+</option>
+				</select>
+			</div>
+		</div>
+		<div class="modalFormRow">
+			<div class="input100">
+				<textarea name="notes" id="notes" placeholder="Notes"></textarea>
+			</div>
+			<div class="input100">
+				<button type="submit" value="submit" name="client-referral">Submit</button>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="wrapper">
+		        <div class="featureBlockContent">
+          <div class="contactInfo"><span class="asset">Asset Manager Details: </span><span class="name">Daniel Mac Kenzie </span> | 414.882.9892 | dmackenzie@sncapital.us | <a href="http://www.adviserinfo.sec.gov/IAPD/IAPDFirmSummary.aspx?ORG_PK=175334" target="_blank">View ADV</a></div>
+
+<div class="copyright">Silvernail Capital &reg; and Silvernail Capital, LLC &reg; 2016 All Rights Reserved. Registered in the state of California and Wisconsin.</div>
+        </div>
+</div>
+</div>
+
+
+</body>
+</html>
